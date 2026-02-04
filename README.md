@@ -1,6 +1,47 @@
-# demo_app
+# Demo App (Flutter)
 
-A new Flutter project.
+A Flutter application built as part of an interview/task submission.  
+This project includes authentication flow, API integration using Dio, Provider state management, and logging support.
+
+---
+
+## 📌 Features
+
+- ✅ Splash Screen
+- ✅ Login Screen
+- ✅ Register Screen
+- ✅ Home Screen
+- ✅ Authentication using Provider
+- ✅ API calls using Dio
+- ✅ Dio Logging Interceptor
+- ✅ Custom Logger Service
+- ✅ Clean folder structure (MVC-like)
+
+---
+
+## 🛠 Tech Stack
+
+- **Flutter**
+- **Dart**
+- **Provider** (State Management)
+- **Dio** (API Calls)
+- **Logger** (Debugging & Logs)
+
+---
+
+## 📱 Screens Included
+
+- Splash Screen
+- Login Screen
+- Register Screen
+- Home Screen
+- Log Viewer Screen
+
+---
+
+## 🚀 Getting Started
+
+
 
 ## Getting Started
 
@@ -15,6 +56,8 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
+## Project Structure
+```bash
 .
 ├── analysis_options.yaml
 ├── android
@@ -94,3 +137,4 @@ samples, guidance on mobile development, and a full API reference.
     └── widget_test.dart
 
 33 directories, 44 files
+```
