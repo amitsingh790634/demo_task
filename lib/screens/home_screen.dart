@@ -5,7 +5,7 @@ import 'package:provider/provider.dart';
 import '../providers/auth_provider.dart';
 
 class HomeScreen extends StatefulWidget {
-  const HomeScreen({Key? key}) : super(key: key);
+  const HomeScreen({super.key});
 
   @override
   State<HomeScreen> createState() => _HomeScreenState();
@@ -46,7 +46,7 @@ class _HomeScreenState extends State<HomeScreen> {
           return SingleChildScrollView(
             child: Column(
               children: [
-                // Header
+                // Todo Header
                 Container(
                   width: double.infinity,
                   decoration: BoxDecoration(
@@ -96,12 +96,12 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 ),
 
-                // User Details
+                // Todo User Details
                 Padding(
                   padding: const EdgeInsets.all(20),
                   child: Column(
                     children: [
-                      // Name Card
+                      // Todo Name Card
                       _buildDataCard(
                         icon: Icons.person_outline,
                         label: 'Full Name',
@@ -109,7 +109,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                       const SizedBox(height: 15),
 
-                      // Username Card
+                      // Todo Username Card
                       _buildDataCard(
                         icon: Icons.account_circle_outlined,
                         label: 'Username',
@@ -117,7 +117,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                       const SizedBox(height: 15),
 
-                      // Email Card
+                      // Todo Email Card
                       _buildDataCard(
                         icon: Icons.email_outlined,
                         label: 'Email',
@@ -125,7 +125,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                       const SizedBox(height: 15),
 
-                      // Mobile Card
+                      // Todo Mobile Card
                       _buildDataCard(
                         icon: Icons.phone_outlined,
                         label: 'Mobile',
@@ -133,7 +133,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                       const SizedBox(height: 30),
 
-                      // Logout Button
+                      // Todo Logout Button
                       SizedBox(
                         width: double.infinity,
                         height: 50,

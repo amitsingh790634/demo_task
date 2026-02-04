@@ -28,7 +28,7 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     super.initState();
-    // Initialize auth on app startup
+    // Todo Initialize auth on app startup
     WidgetsBinding.instance.addPostFrameCallback((_) {
       context.read<AuthProvider>().initializeAuth();
     });

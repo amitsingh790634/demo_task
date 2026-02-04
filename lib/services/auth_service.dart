@@ -77,7 +77,7 @@ class AuthService {
           value: loginResponse.refreshToken,
         );
 
-        // Store user data in shared preferences (as JSON string)
+        // Todo Store user data in shared preferences (as JSON string)
         final userDataJson = jsonEncode({
           'name': loginResponse.data.name,
           'userName': loginResponse.data.userName,
@@ -240,11 +240,11 @@ class AuthService {
     try {
       _logger.userAction('Logout initiated');
 
-      // Clear secure storage
+      // Todo Clear secure storage
       await _secureStorage.delete(key: _accessTokenKey);
       await _secureStorage.delete(key: _refreshTokenKey);
 
-      // Clear shared preferences
+      // Todo Clear shared preferences
       await _preferences.remove(_userDataKey);
       await _preferences.remove(_isLoggedInKey);
 

@@ -171,7 +171,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   padding: const EdgeInsets.fromLTRB(30, 40, 30, 30),
                   child: Column(
                     children: [
-                      // Name Field
+                      // Todo Name Field
                       TextField(
                         controller: _nameController,
                         style: const TextStyle(color: Colors.white),
@@ -190,7 +190,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       ),
                       const SizedBox(height: 15),
 
-                      // Username Field
+                      // Todo Username Field
                       TextField(
                         controller: _usernameController,
                         style: const TextStyle(color: Colors.white),
@@ -209,7 +209,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       ),
                       const SizedBox(height: 15),
 
-                      // Email Field
+                      // Todo Email Field
                       TextField(
                         controller: _emailController,
                         style: const TextStyle(color: Colors.white),
@@ -228,7 +228,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       ),
                       const SizedBox(height: 15),
 
-                      // Mobile Field
+                      // Todo Mobile Field
                       TextField(
                         controller: _mobileController,
                         keyboardType: TextInputType.phone,
@@ -248,7 +248,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       ),
                       const SizedBox(height: 15),
 
-                      // Password Field
+                      // Todo Password Field
                       TextField(
                         controller: _passwordController,
                         obscureText: !_showPassword,
@@ -279,7 +279,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       ),
                       const SizedBox(height: 30),
 
-                      // Register Button
+                      // Todo Register Button
                       Consumer<AuthProvider>(
                         builder: (context, authProvider, _) {
                           return SizedBox(
@@ -320,7 +320,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       ),
                       const SizedBox(height: 20),
 
-                      // Login Navigation
+                      // Todo Login Navigation
                       Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [

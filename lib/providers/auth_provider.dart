@@ -24,10 +24,10 @@ class AuthProvider extends ChangeNotifier {
     notifyListeners();
 
     try {
-      // Check if user is logged in
+      // Todo Check if user is logged in
       _isLoggedIn = await _authService.isLoggedIn();
 
-      // Load user data from local storage
+      // Todo Load user data from local storage
       if (_isLoggedIn) {
         _userData = await _authService.getUserData();
         _logger.appEvent('User data loaded from local storage');

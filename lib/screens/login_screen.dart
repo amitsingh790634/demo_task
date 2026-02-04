@@ -128,7 +128,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 padding: const EdgeInsets.symmetric(horizontal: 30),
                 child: Column(
                   children: [
-                    // Username Field
+                    // Todo Username Field
                     TextField(
                       controller: _usernameController,
                       style: const TextStyle(color: Colors.white),
@@ -147,7 +147,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     ),
                     const SizedBox(height: 20),
 
-                    // Password Field
+                    // Todo Password Field
                     TextField(
                       controller: _passwordController,
                       obscureText: !_showPassword,
@@ -178,7 +178,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     ),
                     const SizedBox(height: 30),
 
-                    // Login Button
+                    // Todo Login Button
                     Consumer<AuthProvider>(
                       builder: (context, authProvider, _) {
                         return SizedBox(
@@ -217,7 +217,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     ),
                     const SizedBox(height: 20),
 
-                    // Register Navigation
+                    // Todo Register Navigation
                     Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
